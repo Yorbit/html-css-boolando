@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding-top: 80px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    color: white;
+    background-color: rgb(255, 115, 0);
+    height: 70px;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+    font-weight: 700;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header .navbar {
+    margin: 0 auto;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .col {
+    flex-basis: 250%
+}
+
+#logo {
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+#figure img {
+    max-width: 100%;
+}
+
+#figure .line {
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    display: flex;
+}
+
+.user-menu {
+    justify-content: flex-end;
+}
+
+.menu-main li {
+    margin-left: 20px;
+}
+
+.user-menu li {
+    margin-left: 20px;
+}
+
+#figure .col {
+    padding: 10px;
+    margin-bottom: 40px;
+    flex-basis: calc(100% / 3);
+}
+
+#figure img {
+    max-width: 100%;
+}
+
+.card .card-img {
+    position: relative;
+}
+
+.card-img .first-image {
+    display: block;
+}
+
+.card-img:hover .first-image {
+    display: none;
+}
+
+.card-img .alternative-image {
+    display: none;
+}
+
+.card-img:hover .alternative-image {
+    display: block;
+}
+
+.card-img .favour {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    font-size: 34px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.card-img .labels {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+.card-img .favour:hover {
+    color: red;
+}
+
+.labels .label {
+    font-weight: 700;
+    color: white;
+    padding: 5px 10px;
+}
+
+.label.label-discount {
+    background-color: red;
+}
+
+.label.label-info {
+    background-color: green;
+}
