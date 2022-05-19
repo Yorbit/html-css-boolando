@@ -148,3 +148,8 @@ ul {
 .label.label-info {
     background-color: green;
 }
+
+strong {
+    color: red;
+    padding-right: 5px;
+}
